@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>test</title>
+<link rel="stylesheet" href="./static/sample2.css">
+</head>
+<body>
+<!--
+<button type="button" id="pivot_left" onclick="Select(this, 7);" >モールス信号</button>
+<button type="button" id="reset" onclick="Select(this, 8);">リセット</button>
+-->
+<button type="button" id="button1" class="tate" onclick="Select(this, 1);">GO</button>
+<button type="button" id="button2" class="tate" onclick="Select(this, 2);">BACK</button>
+<button type="button" id="button3" onclick="Select(this, 4);">LEFT</button>
+<button type="button" id="button4" onclick="Select(this, 3);">RIGHT</button>
+<button type="button" id="button5" class="tate" onclick="Select(this, 0);">STOP</button>
+<button type="button" id="button6" onclick="Select(this, 6);">PIVOT LEFT</button>
+<button type="button" id="button7" class="tate" onclick="Select(this, 5);">PIVOT RIGHT</button>
+</body>
+<script language="javascript" type="text/javascript">
+  var selected_id;
+  function Select(obj, id){
+    selected_id = id;
+    location.href=selected_id;
+    selected_id = 0;
+  }
+</script>
+</html>

@@ -1,0 +1,121 @@
+body{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+p{
+	display: inline-block;
+}
+
+a[class= "linksearch"]{
+	color: skyblue;
+}
+
+div{
+	width: 100px;
+	height: 100px;
+	/*display: inline-block;*/
+	position: absolute;
+	margin: 0px;
+	text-align: center;
+	font-size: 24px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+button{
+	width: 100px;
+	height: 100px;
+	/*display: inline-block;*/
+	position: absolute;
+	text-align: center;
+	font-size: 24px;
+	font-family: Arial;
+	font-weight: bold;
+	border-style: none;
+	padding: 10px 0;
+
+}
+
+
+#button1{
+	background: #85ade3;
+	color: #111;
+	animation: anime1 0.5s ease;
+	animation-fill-mode: both;
+}
+
+#button2{
+	animation: anime2 0.5s ease;
+	animation-fill-mode: both;
+}
+
+#button3{
+	top: 30%;
+	animation: anime3 0.5s ease 0.5s;
+	animation-fill-mode: both;
+}
+
+#button4{
+	top: 30%;
+	animation: anime4 0.5s ease 0.5s;
+	animation-fill-mode: both;
+}
+
+#button5{
+	top: 30%;
+	z-index: 1;
+	animation: anime5 1s ease 1.5s;
+	animation-fill-mode: both;
+}
+
+#button6{
+	animation: anime6 0.5s ease 1s;
+	animation-fill-mode: both;
+}
+
+#button7{
+	animation: anime7 0.5s ease 1s;
+	animation-fill-mode: both;
+}
+.tate{
+	left: 45%;
+}
+
+@keyframes anime1 {
+0% {top: 30%;}
+100% {top: 15%;}
+}
+
+@keyframes anime2 {
+0% {top: 30%;}
+100% {top: 45%;}
+}
+
+@keyframes anime3 {
+0% {left: 45%;}
+100% {left: 36%;}
+}
+
+@keyframes anime4 {
+0% {left: 45%;}
+100% {left: 54%;}
+}
+
+@keyframes anime5 {
+0% {background:rgba(0,0,0,0); color: rgba(0,0,0,0);}
+100% {background:rgba(223,55,122,1); color: rgba(0,0,0,1);}
+}
+
+@keyframes anime6 {
+0% {top: 30%; left: 45%;}
+100% {top: 45%; left: 36%;}
+}
+
+@keyframes anime7 {
+0% {top: 30%; left: 45%;}
+100% {top:45%; left: 54%;}
+}
+
+

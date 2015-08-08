@@ -1,0 +1,79 @@
+body{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+p{
+	display: inline-block;
+}
+
+a[class= "linksearch"]{
+	color: skyblue;
+}
+
+div{
+	width: 100px;
+	height: 100px;
+	/*display: inline-block;*/
+	position: absolute;
+	margin: 0px;
+	text-align: center;
+	font-size: 24px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+button{
+	width: 100px;
+	height: 100px;
+	/*display: inline-block;*/
+	position: absolute;
+	text-align: center;
+	font-size: 24px;
+	font-family: Arial;
+	font-weight: bold;
+	border-style: none;
+	padding: 10px 0;
+
+}
+
+
+#button1{
+	background: #85ade3;
+	color: #111;
+	top: 15%;
+}
+
+#button2{
+	top: 45%;
+}
+
+#button3{
+	top: 30%;
+	left: 36%;
+}
+
+#button4{
+	top: 30%;
+	left: 54%;
+}
+
+#button5{
+	top: 30%;
+	z-index: 1;
+	background:rgba(223,55,122,1); color: rgba(0,0,0,1);
+}
+
+#button6{
+	top: 45%; 
+	left: 36%;
+}
+
+#button7{
+	top:45%; 
+	left: 54%;
+}
+.tate{
+	left: 45%;
+}
